@@ -155,13 +155,30 @@ header {
   h3  {
     font-size: 100%;
   }
+
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 10px;
+    gap: 40px;
     align-items: center;
     font-weight: 600;
     
@@ -187,7 +204,7 @@ header ul li a {
     color: #ffffff;
     text-decoration: none;
     font-family: 'helvari';
-    font-size: 1em;
+    font-size: 130%;
     text-transform: uppercase;
 }
 header ul li a:hover {
@@ -376,6 +393,10 @@ html {
   .timeline ul li:hover::before {
     background-color: white;
   }
+
+
+
+  
 }
 
 
@@ -751,6 +772,15 @@ button {
   .carousel  { 
         
         height: 50px
+  }
+
+  header ul   {
+    gap: 15px;
+  }
+  
+  header ul li a  {
+    gap: 10px;
+    font-size: 1em;
   }
 }
 
