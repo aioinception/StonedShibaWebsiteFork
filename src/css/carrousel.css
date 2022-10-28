@@ -1,0 +1,28 @@
+
+.galery-carrousel {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    box-shadow: 10px 0 20px #0005;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.gallery-item {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /* animation-duration: 10s;
+    animation-name: example;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    margin: 70px 20px 70px 20px;
+    box-shadow: #fff3 -2px 1px 20px 0px;
+}
+
+/* @keyframes example {
+    100%   {right: 1000px;}
+    0% {right: 0px;}
+  } */
