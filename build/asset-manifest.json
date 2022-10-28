@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.c94c5429.chunk.css",
-  "main.js": "/static/js/main.97b831b1.chunk.js",
-  "main.js.map": "/static/js/main.97b831b1.chunk.js.map",
+  "main.css": "/static/css/main.5ecbb3be.chunk.css",
+  "main.js": "/static/js/main.a80a80f5.chunk.js",
+  "main.js.map": "/static/js/main.a80a80f5.chunk.js.map",
   "static/js/1.5bd9b839.chunk.js": "/static/js/1.5bd9b839.chunk.js",
   "static/js/1.5bd9b839.chunk.js.map": "/static/js/1.5bd9b839.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -16,14 +16,14 @@
   "static/media/nft8.png": "/static/media/nft8.188adc59.png",
   "static/media/smoke-video.mp4": "/static/media/smoke-video.bedb88fb.mp4",
   "static/media/shiba-logo.png": "/static/media/shiba-logo.6af6869e.png",
-  "static/media/App.css": "/static/media/Inter-Thin.72869267.otf",
+  "static/media/App.css": "/static/media/Inter-Light.d7019947.otf",
   "static/media/pruebaexport229.jfif": "/static/media/pruebaexport229.75ebeb1c.jfif",
   "static/media/Kush_Coin.png": "/static/media/Kush_Coin.10cbce69.png",
   "static/media/nft9.png": "/static/media/nft9.d5de6638.png",
   "static/media/nft10.jpg": "/static/media/nft10.da3f01d9.jpg",
   "static/media/inception-logo.png": "/static/media/inception-logo.3637cf66.png",
-  "static/css/main.c94c5429.chunk.css.map": "/static/css/main.c94c5429.chunk.css.map",
+  "static/css/main.5ecbb3be.chunk.css.map": "/static/css/main.5ecbb3be.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.46f434e0aeadc4c288b88e009db666c3.js": "/precache-manifest.46f434e0aeadc4c288b88e009db666c3.js",
+  "precache-manifest.601b33888515c6c3cd98950a07ccf0f0.js": "/precache-manifest.601b33888515c6c3cd98950a07ccf0f0.js",
   "service-worker.js": "/service-worker.js"
 }
