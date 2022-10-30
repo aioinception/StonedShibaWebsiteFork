@@ -20,7 +20,7 @@ function App() {
         <>
 
             <div className="App">
-                <header>
+            <header>
                     <ul>
                         <li><a href="#the-story-section">STORY</a></li>
                         <li><a href="#dreams-section">WHITEPAPER</a></li>
@@ -31,6 +31,9 @@ function App() {
                     </ul>
 
                 </header>
+
+
+
                 <main>
                     <section id="title-section">
 
@@ -78,7 +81,7 @@ function App() {
                     <section id="dreams-section">
                         <div className="title">
                             <h3 className='whitepaper'>WHITEPAPER</h3>
-                            <h3 className='shadow'>WHITEPAPER</h3>
+                      
                         </div>
                         <div className="description">
                             <p>
@@ -86,6 +89,7 @@ function App() {
                             </p>
                         </div>
                     </section>
+
 
 
                     <section id="carousel">
@@ -103,7 +107,7 @@ function App() {
                                     <img src={require("./images/nft3.png")} alt="" />
                                 </div>
                                 
-                                <div className="slide ">
+                                <div className="slide mobile ">
                                     <img src={require("./images/nft4.png")} alt="" />
                                 </div>
                                 <div className="slide mobile">
@@ -119,7 +123,6 @@ function App() {
                                     <img src={require("./images/nft8.png")} alt="" />
                                 </div>
 
-                                {/* MISMAS 9 */}
 
                                 <div className="slide">
                                     <img src={require("./images/nft1.png")} alt="" />
@@ -130,7 +133,8 @@ function App() {
                                 <div className="slide">
                                     <img src={require("./images/nft3.png")} alt="" />
                                 </div>
-                                <div className="slide mobile">
+                                
+                                <div className="slide mobile ">
                                     <img src={require("./images/nft4.png")} alt="" />
                                 </div>
                                 <div className="slide mobile">
@@ -138,7 +142,7 @@ function App() {
                                 </div>
                                 <div className="slide mobile">
                                     <img src={require("./images/nft6.png")} alt="" />
-                                </div>
+                                </div> 
                                 <div className="slide mobile">
                                     <img src={require("./images/nft7.png")} alt="" />
                                 </div>
@@ -146,12 +150,16 @@ function App() {
                                     <img src={require("./images/nft8.png")} alt="" />
                                 </div>
 
+           
+
+                               
+
                             </div>
                         </div>
 
                     </section>
 
-
+            
 
                     <section id="roadmap-section">
                   
