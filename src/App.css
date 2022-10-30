@@ -427,7 +427,7 @@ main section#guyscoin-section #guyscoin-section-content img {
 
 @media  screen and (max-width: 968px) {
   main section#guyscoin-section #guyscoin-section-content img   {
-    width: 80%;
+    width: 70vw;
   }
 }
 
@@ -794,6 +794,10 @@ button {
 
   main section#the-story-section img {
     width: 100vw;
+}
+
+main section .title h3:nth-child(2) { 
+  margin-top: -20px;
 }
 
 }
