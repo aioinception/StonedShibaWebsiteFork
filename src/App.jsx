@@ -171,7 +171,7 @@ function App() {
                                     <ul>
                                         <li>
                                             <div className="timeline-content">
-                                                <h3 className="date">20th may, 2010</h3>
+                                               
                                                 <h1>Pre Mint</h1>
                                                 <p>💀New updated artwork <br />
                                                     💀Collection of wallet adresses of <br />
@@ -185,7 +185,7 @@ function App() {
                                         </li>
                                         <li>
                                             <div className="timeline-content">
-                                                <h3 className="date">20th may, 2010</h3>
+                                               
                                                 <h1>Mint Spark Up</h1>
                                                 <p>💀Setup holder verification <br />
                                                     💀Creation of the Stoned Shibas branch <br />
@@ -196,7 +196,7 @@ function App() {
                                         </li>
                                         <li>
                                             <div className="timeline-content">
-                                                <h3 className="date">20th may, 2010</h3>
+                                             
                                                 <h1>Mint Spark Up(Continued)</h1>
                                                 <p>
                                                     💀  Exclusive airdrops to staked holders <br />
@@ -211,7 +211,7 @@ function App() {
                                         </li>
                                         <li>
                                             <div className="timeline-content">
-                                                <h3 className="date">20th may, 2010</h3>
+                                              
                                                 <h1>The Grow Out</h1>
                                                 <p>
                                                     💀Partner with growers, distributors and farms <br />
