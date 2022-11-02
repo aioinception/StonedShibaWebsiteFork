@@ -31,7 +31,7 @@
 }
 
 .logo-shiba {   
-    width: 50%;
+    width: 17.5em;
     transition: transform 1s;
 }
 
@@ -277,7 +277,7 @@ main section#intro-background-section img {
 }
 main section#the-story-section img {
     width: 60%;
-    height: 0%;
+   
     display: flex;
     margin: auto;
     
@@ -427,7 +427,7 @@ main section#guyscoin-section #guyscoin-section-content img {
 
 @media  screen and (max-width: 968px) {
   main section#guyscoin-section #guyscoin-section-content img   {
-    width: 80%;
+    width: 70vw;
   }
 }
 
@@ -554,7 +554,7 @@ main section .description {
     justify-content: center;
 }
 main section .description > p {
-    width: 450px;
+    width: 700px;
     font-size: 18px;
 }
 .discord-description {
@@ -791,6 +791,15 @@ button {
     gap: 20px;
     font-size: 0.8em;
   }
+
+  main section#the-story-section img {
+    width: 100vw;
+}
+
+main section .title h3:nth-child(2) { 
+  margin-top: -20px;
+}
+
 }
 
 
