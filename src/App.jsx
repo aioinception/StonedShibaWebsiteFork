@@ -324,7 +324,7 @@ function App() {
                             <div className='member1'>
                                 <img className='img-member' src={require("./images/nft9.png")} alt="" />
                                 <div className="member-description">
-                                    <h6>JHON L.</h6>
+                                    <h6>JOHN L.</h6>
                                     <p> EXECUTIVE DISCORD <br /> ADMINISTRATOR</p>
                                 </div>
                             </div>
