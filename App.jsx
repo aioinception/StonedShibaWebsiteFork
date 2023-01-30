@@ -7,39 +7,27 @@ import logo from "./images/shiba-logo.png"
 import { useState } from 'react';
 import Question from "../src/Detail/Accordion"
 
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-
-import 'swiper/swiper.min.css'
-import 'swiper/modules/pagination/pagination.min.css'
-import { Pagination } from "swiper";
 
 
 
 
 function App() {
 
-
-    const pagination = {
-        clickable: true,
-        renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-    };
+  
 
     return (
         <>
 
             <div className="App">
-                <header>
+            <header>
                     <ul>
-                        <li><a href="#the-story-section">Story</a></li>
-                        <li><a href="#dreams-section">Whitepaper</a></li>
-                        <li ><a className='inception' href="https://www.inceptionaio.io/">Inception</a></li>
-                        <li><a href="#roadmap-section">Roadmap</a></li>
-                        <li><a href="#collaborators-section">Team</a></li>
-
+                        <li><a href="#the-story-section">STORY</a></li>
+                        <li><a href="#dreams-section">WHITEPAPER</a></li>
+                        <li ><a className='inception' href="https://www.inceptionaio.io/">INCEPTION</a></li>
+                        <li><a href="#roadmap-section">ROADMAP</a></li>
+                        <li><a href="#collaborators-section">TEAM</a></li>
+                       
                     </ul>
 
                 </header>
@@ -47,11 +35,6 @@ function App() {
 
 
                 <main>
-
-
-
-
-
                     <section id="title-section">
 
 
@@ -98,7 +81,7 @@ function App() {
                     <section id="dreams-section">
                         <div className="title">
                             <h3 className='whitepaper'>WHITEPAPER</h3>
-
+                      
                         </div>
                         <div className="description">
                             <p>
@@ -123,7 +106,7 @@ function App() {
                                 <div className="slide">
                                     <img src={require("./images/nft3.png")} alt="" />
                                 </div>
-
+                                
                                 <div className="slide mobile ">
                                     <img src={require("./images/nft4.png")} alt="" />
                                 </div>
@@ -132,7 +115,7 @@ function App() {
                                 </div>
                                 <div className="slide mobile">
                                     <img src={require("./images/nft6.png")} alt="" />
-                                </div>
+                                </div> 
                                 <div className="slide mobile">
                                     <img src={require("./images/nft7.png")} alt="" />
                                 </div>
@@ -150,7 +133,7 @@ function App() {
                                 <div className="slide">
                                     <img src={require("./images/nft3.png")} alt="" />
                                 </div>
-
+                                
                                 <div className="slide mobile ">
                                     <img src={require("./images/nft4.png")} alt="" />
                                 </div>
@@ -159,7 +142,7 @@ function App() {
                                 </div>
                                 <div className="slide mobile">
                                     <img src={require("./images/nft6.png")} alt="" />
-                                </div>
+                                </div> 
                                 <div className="slide mobile">
                                     <img src={require("./images/nft7.png")} alt="" />
                                 </div>
@@ -167,80 +150,98 @@ function App() {
                                     <img src={require("./images/nft8.png")} alt="" />
                                 </div>
 
+           
 
-
-
+                               
 
                             </div>
                         </div>
 
                     </section>
 
-               
-
-
-                           
-
-
-                 
-
-
-
-
-
-
+            
 
                     <section id="roadmap-section">
-
-
-
-
-
+                  
                         <div className="title">
-
+                            
                             <h3>Roadmap</h3>
+                            <div className="container-timeline">
+                                <div className="timeline">
+                                    <ul>
+                                        <li>
+                                            <div className="timeline-content">
+                                               
+                                                <h1>Pre Mint</h1>
+                                                <p>💀New updated artwork <br />
+                                                    💀Collection of wallet adresses of <br />
+                                                    💀V1 token and V1 NFT HOLDERS <br />
+                                                    💀Official Stoned Shibas website launch <br />
+                                                    💀New updated roadmap and whitepaper
+
+
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="timeline-content">
+                                               
+                                                <h1>Mint Spark Up</h1>
+                                                <p>💀Setup holder verification <br />
+                                                    💀Creation of the Stoned Shibas branch <br />
+                                                    💀Stoned Shibas listed on MagicEden <br />
+                                                </p>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="timeline-content">
+                                             
+                                                <h1>Mint Spark Up(Continued)</h1>
+                                                <p>
+                                                    💀  Exclusive airdrops to staked holders <br />
+                                                    💀  Inception AIO revenues will trickle down <br />
+                                                    💀  to the Stoned Shibas community wallet <br />
+                                                    💀  Creation of the Rug Spliff Incubator
+
+
+                                                </p>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="timeline-content">
+                                              
+                                                <h1>The Grow Out</h1>
+                                                <p>
+                                                    💀Partner with growers, distributors and farms <br />
+                                                    💀Presence at cannabis expos and conventions <br />
+                                                    💀Start the $KUSH Shop to purchase Stoned <br />
+                                                    💀Holders given access to exclusive networking <br />
+                                                    💀Leverage Inceptions relationships and collab
+
+                                                </p>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-
-                        <Swiper
-        slidesPerView={"auto"}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-         {/* <SwiperSlide><img className='img-slider' src={require("./images/roadd1.png")} alt="" /></SwiperSlide> */}
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699203769475092/CB4B6AE8-BBFA-4897-ABCC-48602DFFBAD6.jpg" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699204016947260/FD36387E-943C-4C8E-848D-D1A16FD81DFF.jpg" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699204247629936/560926E5-BAF1-4F84-9646-FAF0CFEE9389.jpg" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699204453146735/FD3E336E-D408-49A8-9F88-D128CCEB5123.jpg" alt="" /></SwiperSlide>
-
-
-     
-      </Swiper>
-                       
-
-                 
-        
-
-     
-    
-
                     </section>
 
 
                     <section id="guyscoin-section">
 
-                        <video muted autoPlay loop>
+                    <video muted autoPlay loop>
 
-                            <source src={video} />
-                        </video>
+<source src={video} />
+</video>
                         <div id="guyscoin-section-content">
                             <img src={require("./images/Kush_Coin.png")} alt="Guyscoin" />
                             <h3 >$KUSHCOIN</h3>
                             <h3>REWARDS</h3>
-                            <p>Our native token $KUSH gives daily rewards with an array of emissions rates depending on the rarity of your Shiba collectible. It is our main utility token that will be offered to obtain certain cannabis related products and other rewards in the InceptionAIO network.</p>
+                           <p>Our native token $KUSH gives daily rewards with an array of emissions rates depending on the rarity of your Shiba collectible. It is our main utility token that will be offered to obtain certain cannabis related products and other rewards in the InceptionAIO network.</p>
                         </div>
                     </section>
 
@@ -323,7 +324,7 @@ function App() {
                             <div className='member1'>
                                 <img className='img-member' src={require("./images/nft9.png")} alt="" />
                                 <div className="member-description">
-                                    <h6>JOHN L.</h6>
+                                    <h6>JHON L.</h6>
                                     <p> EXECUTIVE DISCORD <br /> ADMINISTRATOR</p>
                                 </div>
                             </div>
