@@ -128,6 +128,7 @@ body {
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
+    
 }
 header {
     width: 100%;
@@ -192,6 +193,8 @@ header ul li {
 
 .fa-globe, .fa-twitter   {
   color: white;
+  font-size: 1.5em;
+  transition: all 400ms;
 }
 
 .fa-globe:hover, .fa-twitter:hover   {
@@ -281,9 +284,10 @@ main section#the-story-section img {
     margin-top: 150px;
 }
 main section#carousell-section {
-    height: 640px;
+    height: auto;
     padding-top: 0;
 }
+
 
 
 /* ROADMAP */
@@ -294,6 +298,18 @@ main section#carousell-section {
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+main section#roadmap-section {
+    padding: 25px 0 0 0;
+}
+main section#roadmap-section #roadmap-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    z-index: 200;
 
 }
 
@@ -370,7 +386,8 @@ main section#guyscoin-section #guyscoin-section-content h5 {
     padding: 5px 15px;
 }
 main section#guyscoin-section #guyscoin-section-content h3 {
-    font-family: 'inter-black';
+    /* font-family: 'inter-black'; */
+    font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-size: 60px;
     margin: 15px;
@@ -380,7 +397,8 @@ main section#guyscoin-section #guyscoin-section-content h3 span.small-title {
     font-size: 40px;
 }
 main section#guyscoin-section #guyscoin-section-content p {
-    font-family: 'inter-regular';
+    /* font-family: 'inter-regular'; */
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     width: 300px;
 }
@@ -390,6 +408,7 @@ main section#guyscoin-section #guyscoin-section-content p {
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding: 25px 0 0 0;
 }
 #participation-section img{
     width: 100%;
@@ -416,6 +435,7 @@ main section#collaborators-section #participation-section-content {
     display: flex;
     justify-content: center;
     gap: 50px;
+    overflow: hidden;
 }
 .collaborator-item {
     position: relative;
@@ -445,7 +465,8 @@ main section#collaborators-section #participation-section-content article p {
 main section .title {
     width: 100%;
     text-align: center;
-    font-family: 'inter-black';
+    /* font-family: 'inter-black'; */
+    font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     margin-bottom: 50px;
 }
@@ -462,7 +483,8 @@ main section .title h3:nth-child(2) {
 }
 main section .description {
     display: flex;
-    font-family: 'inter-regular';
+    /* font-family: 'inter-regular'; */
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     justify-content: center;
 }
@@ -479,8 +501,9 @@ main section .description > p {
 .discord-description article {
   margin: 15px;
 }
+
 footer {
-    padding-top: 200px;
+    padding:  200px 0 20px 0  ;
 }
 footer div#footer-content {
     display: flex;
@@ -498,7 +521,7 @@ footer div#footer-content div#footer-info {
 }
 footer div#footer-content div#footer-info span {
     color: #ffffff;
-    font-family: 'inter-light';
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
 }
 
@@ -592,20 +615,43 @@ button {
 
 
 /*CARDS TEAM */
+.img-member  {
+  width: 200px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: 400ms;
+}
+
+.img-member:hover   {
+  filter: grayscale(0%);
+}
+.member   {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2em;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .team   {
-    display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .member1    {
     display: flex;
     flex-direction: column;
-   
+    
 }
 .member-description {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .member-description h6 {   
     font-family: inter-regular;
@@ -619,24 +665,109 @@ button {
     margin: 2px;
 }
 
-.img-member {
-    width: 40%;
-    display: block;
-    margin: 20px auto;
-    border-radius: 50%;
-}
+
+
 
 
 
 /*CARDS TEAM */
 
 
-/* MINT INFO */
-.boton-connect {
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
+
+.mint-info  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-items: stretch;
 }
+.mint-second-tittle {
+    margin: 0;
+}
+.mint1 {
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    background: linear-gradient(0deg, rgba(47,41,52,1) 0%, rgba(48,41,53,1) 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mint-info .mint1:nth-child(1) {
+    background: linear-gradient(0deg, rgb(99 102 241) 0%, rgb(69 71 178) 89%);
+    transition: all 2s ease-out;
+}
+
+.mint-weekend   {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    flex-wrap: wrap;
+    display: block;
+    background: rgb(47,41,52);
+    background: linear-gradient(0deg, rgba(47,41,52,1) 0%, rgba(48,41,53,1) 89%);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.mint-sub-title     {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.25rem 0;
+}
+
+.counter-item {
+    width: 5rem;
+    padding: 1.25rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+    margin: 0.5rem;
+    border-radius: 0.75rem;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-color: rgb(99 102 241 / 0.5);
+    --tw-shadow: var(--tw-shadow-colored);
+
+}
+.galery-carrousel {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    box-shadow: 10px 0 20px #0005;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.gallery-item {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /* animation-duration: 10s;
+    animation-name: example;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    margin: 70px 20px 70px 20px;
+    box-shadow: #fff3 -2px 1px 20px 0px;
+}
+#collab-tittle {
+    font-size: 0.6em;
+    margin: 150px 0 0 0;
+}
+
+/* MINT INFO */
+
 
 /*CAROUSEL */
 
@@ -743,7 +874,10 @@ main section .title h3:nth-child(2) {
  }
 /* FAQ */
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 480px) {
+
     #roadmap-steps {
         flex-direction: column;
         align-items: center;
@@ -753,6 +887,7 @@ main section .title h3:nth-child(2) {
         display: flex;
         flex-direction: column;
     }
+
 
     .whitepaper, .shadow   {
       font-size: 0.8em;
@@ -770,10 +905,92 @@ main section .title h3:nth-child(2) {
 
     
 
+
+    header {
+        display: none;
+    }
+    main section#title-section h1 {
+        font-size: 25px;
+    }
+    main section .title{
+        font-size: 40px;
+    }
+    main section .title h3:nth-child(2) {
+        margin-top: -16px;
+    }
+    main section .description > p{
+        width: 350px;
+        font-size: 15px;
+    }
+    .gallery-item{
+        width: 300px;
+        height: 300px;
+    }
+    main section#roadmap-section #roadmap-steps {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    main section#guyscoin-section {
+        padding: 15px 0 0 0;
+        overflow: hidden;
+    }
+    main section#guyscoin-section #guyscoin-section-content img {
+        width: 400px;
+    }
+    main section#guyscoin-section #guyscoin-section-content h3 {
+        font-size: 40px;
+    }
+    main section#guyscoin-section #guyscoin-section-content h3 span.small-title {
+        font-size: 20px;
+    }
+    main section#guyscoin-section #guyscoin-section-content p {
+        width: 350px;
+        font-size: 15px;
+    }
+    #participation-section {
+        padding: 15px 0 0 0;
+    }
+    .mint-section {
+        padding: 50px 0;
+    }
+    .mint-info {
+        flex-direction: column;
+    }
+    .mint-weekend{
+        writing-mode: horizontal-tb;
+    }
+    .counter-item {
+        width: 1.7rem;
+    padding: 1.3rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+    margin: 0.5rem;
+    border-radius: 0.75rem;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-color: rgb(99 102 241 / 0.5);
+    --tw-shadow: var(--tw-shadow-colored);
+    text-align: center;
+    }
+    .main section#collaborators-section #participation-section-content {
+        grid-gap: 20px;
+        gap: 20px;
+    }
+
 }
 
 
 @media (max-width: 1310px) {
+    header {
+        width: 90%;
+    }
+    header ul {
+        gap: 20px;
+    }
 }
 
 @media (min-width: 1000px) {}

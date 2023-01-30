@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import './css/carrousel.css';
-import './libs/countdown.js';
+
+
 import video from "./images/smoke-video.mp4"
 import logo from "./images/shiba-logo.png"
-import { useState } from 'react';
-import Question from "../src/Detail/Accordion"
+
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -93,7 +93,7 @@ function App() {
 
                             </p>
                         </div>
-                        <img className="thestory-bg" src={require("./images/pruebaexport229.jfif")} alt="AstroGuys" />
+                       
                     </section>
                     <section id="dreams-section">
                         <div className="title">
@@ -176,13 +176,13 @@ function App() {
 
                     </section>
 
-               
 
 
-                           
 
 
-                 
+
+
+
 
 
 
@@ -202,30 +202,30 @@ function App() {
                         </div>
 
                         <Swiper
-        slidesPerView={"auto"}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-         {/* <SwiperSlide><img className='img-slider' src={require("./images/roadd1.png")} alt="" /></SwiperSlide> */}
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699203769475092/CB4B6AE8-BBFA-4897-ABCC-48602DFFBAD6.jpg" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699204016947260/FD36387E-943C-4C8E-848D-D1A16FD81DFF.jpg" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699204247629936/560926E5-BAF1-4F84-9646-FAF0CFEE9389.jpg" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='img-slider' src="https://cdn.discordapp.com/attachments/1027679004209193061/1052699204453146735/FD3E336E-D408-49A8-9F88-D128CCEB5123.jpg" alt="" /></SwiperSlide>
+                            slidesPerView={"auto"}
+                            spaceBetween={30}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            {/* <SwiperSlide><img className='img-slider' src={require("./images/roadd1.png")} alt="" /></SwiperSlide> */}
+                            <SwiperSlide><img className='img-slider' src={require("./images/road1.jpg")} alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='img-slider' src={require("./images/road2.jpg")} alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='img-slider' src={require("./images/road3.jpg")} alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='img-slider' src={require("./images/road4.jpg")} alt="" /></SwiperSlide>
 
 
-     
-      </Swiper>
-                       
 
-                 
-        
+                        </Swiper>
 
-     
-    
+
+
+
+
+
+
 
                     </section>
 
@@ -251,94 +251,93 @@ function App() {
                         <div className="title">
                             <h3>TEAM</h3>
                         </div>
-                        <div className='team'>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft1.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>CRYPTO CHRIS.</h6>
-                                    <p>CEO</p>
-                                </div>
-                            </div>
+<div className="team">
+    <div className="member">
+        <img src={require("./images/nft1.png")} className="img-member" alt="" />
+        <h3>Chris</h3>
+        <h5>CEO</h5>
+    </div>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft2.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>ANTHONY Y.</h6>
-                                    <p>VP & COO</p>
-                                </div>
-                            </div>
+    <div className="member">
+        <img src={require("./images/nft2.png")} className="img-member" alt="" />
+        <h3>ANTHONY Y.</h3>
+        <h5>VP & COO</h5>
+    </div>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft3.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>ROHAN S.</h6>
-                                    <p>CTO & LEAD DEV</p>
-                                </div>
-                            </div>
+    <div className="member">
+        <img src={require("./images/nft3.png")} className="img-member" alt="" />
+        <h3>ROHAN S.</h3>
+        <h5>CTO & LEAD DEV</h5>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft4.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>ALAN.</h6>
-                                    <p>FINANCIAL <br /> CONTROLLER</p>
-                                </div>
-                            </div>
+        
+    </div>
+    <div className="member">
+        <img src={require("./images/nft4.png")} className="img-member" alt="" />
+        <h3>ALAN</h3>
+        <h5>FINANCIAL CONTROLLER</h5>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft5.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>JASON B.</h6>
-                                    <p>EXECUTIVE COMMUNITY <br /> COORDINATOR</p>
-                                </div>
-                            </div>
-                        </div>
+        
+    </div>
+    <div className="member">
+        <img src={require("./images/nft5.png")} className="img-member" alt="" />
+        <h3>JASON B.</h3>
+        <h5>EXECUTIVE COMMUNITY COORDINATOR</h5>
 
-                        <div className='team'>
+        
+    </div>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft6.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>DEAN B.</h6>
-                                    <p>EXECUTIVE COMMUNITY <br /> COLLABORATOR</p>
-                                </div>
-                            </div>
+    <div className="member">
+        <img src={require("./images/nft6.png")} className="img-member" alt="" />
+        <h3>DEAN B.</h3>
+        <h5>EXECUTIVE COMMUNITY COLLABORATOR</h5>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft7.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>HAILEY N.</h6>
-                                    <p>EXECUTIVE ADMINISTRATIVE <br /> COORDINATOR</p>
-                                </div>
-                            </div>
+        
+    </div>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft8.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>TOMMY B.</h6>
-                                    <p>EXECUTIVE COMMUNITY <br /> COLLABORATOR  </p>
-                                </div>
-                            </div>
+    <div className="member">
+        <img src={require("./images/nft7.png")} className="img-member" alt="" />
+        <h3>HAILEY N.</h3>
+        <h5>EXECUTIVE ADMINISTRATIVE COORDINATOR</h5>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft9.png")} alt="" />
-                                <div className="member-description">
-                                    <h6>JOHN L.</h6>
-                                    <p> EXECUTIVE DISCORD <br /> ADMINISTRATOR</p>
-                                </div>
-                            </div>
+        
+    </div>
 
-                            <div className='member1'>
-                                <img className='img-member' src={require("./images/nft10.jpg")} alt="" />
-                                <div className="member-description">
-                                    <h6>MAX V.</h6>
-                                    <p> EXECUTIVE ASSISTANT AND <br /> BUSINESS DEVELOPMENT</p>
-                                </div>
-                            </div>
-                        </div>
+    <div className="member">
+        <img src={require("./images/nft8.png")} className="img-member" alt="" />
+        <h3>TOMMY B.</h3>
+        <h5>EXECUTIVE COMMUNITY COLLABORATOR</h5>
+
+        
+    </div>
 
 
+    <div className="member">
+        <img src={require("./images/nft9.png")} className="img-member" alt="" />
+        <h3>JHON L. </h3>
+        <h5>EXECUTIVE DISCORD ADMINISTRATOR</h5>
 
+        
+    </div>
+
+    <div className="member">
+        <img src={require("./images/nft10.jpg")} className="img-member" alt="" />
+        <h3>MAX V.</h3>
+        <h5>EXECUTIVE ASSISTANT AND BUSINESS DEVELOPMENT</h5>
+
+        
+    </div>
+
+    <div className="member">
+        <img src={require("./images/nft11.avif")} className="img-member" alt="" />
+        <h3>RESOLA.</h3>
+        <h5>DEVELOPER FRONTEND</h5>
+
+        
+    </div>
+
+    
+</div>
 
 
                     </section>
@@ -347,7 +346,7 @@ function App() {
                     <div id="footer-content">
                         <img src={require("./images/inception-logo.png")} alt="Dezure logo" />
                         <div id="footer-info">
-                            <span>© 2022 INCEPTION AIO.</span>
+                            <span>POWERED BY INCEPTION AIO</span>
                             <a href="https://www.inceptionaio.io/"><i className="fa-solid fa-globe"></i></a>
                             <a href="https://twitter.com/InceptionAIO"><i className="fa-brands fa-twitter"></i></a>
                         </div>
@@ -355,7 +354,7 @@ function App() {
                 </footer>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
                 <script src="./libs/main.js"></script>
-                <script src="./libs/countdown.js"></script>
+
             </div>
         </>
     );
